@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int arrayAdd(int* arr, int s, int n)
 {
   for (int i = 0; i < s; i++)
@@ -8,7 +7,6 @@ int arrayAdd(int* arr, int s, int n)
 	printf("%d\n", arr[i]);
     }
 }
-
 int main()
 {
   int arr[100];
